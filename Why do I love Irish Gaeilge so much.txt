@@ -1,0 +1,35 @@
+Quite honestly, it has nothing to do with the fact I'm writing this from Galway (Gaillimh), Connaught. 
+Still, the city's incredibly charming.
+
+This package should consist of the following structure when as you get the distrubution:
+- ReplayMapFixer
+         | - Replays
+                       | *here you may put the replays (or folders with lots of replays) you'd want to convert
+
+         | - Converted
+                       | *here you'd find your precious converted replays
+
+         | - don't touch this one!
+                       | - 1.32.10.17380
+                                        | *some maps we'd need for conversion. You'd better not toy with them
+
+         | *Why do I love Irish Gaeilge so much.txt (dontreadme.pls)
+
+         | *^Magic_ReplayMap_Fixer^.exe
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~ Place the replays you'd want to convert to /Replays/ folder
+~ Run the ^Magic_ReplayMap_Fixer^.exe
+~ You are about to find the converted replays in the /Converted/ folder
+~ The rest is gonna be made by elven magic
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~ In case you get into any kind of trouble, this might mean the script was not able to copy the maps to your
+Documents/Warcraft III/1.32.10.17380/ folder. You should try doing it manually then. The structure 
+shall be as following: - Documents
+                                  | - Warcraft III
+                                                  | 1.32.10.17380
+                                                                 | *the maps (.w3x/.w3m files) are here
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Crafted for the community
+By the demand of Back2Warcraft
+Powered by LadyRisa replaytool                                                                        2021/09/03
