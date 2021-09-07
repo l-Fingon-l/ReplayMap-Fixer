@@ -46,5 +46,12 @@ The problem might be solved by intrusively changing the map path inside of the r
 - First, we decompress the replay
 - Then we check if the map used belongs to the list of those changed, and if it does, then we change a path to Maps/1.32.10.17380/MapName.w3x
 - After that we compress the replay once again
+
+### A few notes on implementation
+This tool uses a legacy code of [my old replay-parser](https://github.com/l-Fingon-l/ReplayParser) as it's core. 
+That code is quite old a pretty ugly (and I have even got into some trouble while trying to recall what was my year-old code designed to do)
+but it is incredibly fast and it does it's job.  
+There were made some edits and a couple of optimizations added, though.
+
 ---
 A fixer for Warcraft III patch 1.32.10 Netease (.nwg) replays, broken by official 1.32.10.17734 patch.
