@@ -2,7 +2,7 @@ Quite honestly, it has nothing to do with the fact I'm writing this from Galway 
 Still, the city's incredibly charming.
 
 This package should consist of the following structure when as you get the distrubution:
-- ReplayMapFixer
+- ReplayMapFixer v1.1
          | - Replays
                        | *here you may put the replays (or folders with lots of replays) you'd want to convert
 
@@ -33,3 +33,4 @@ shall be as following: - Documents
 Crafted for the community
 By the demand of Back2Warcraft
 Powered by LadyRisa replaytool                                                                        2021/09/03
+                                                                                                 v1.1 2021/09/07

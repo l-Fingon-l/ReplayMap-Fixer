@@ -284,7 +284,7 @@ bool decompress_and_modify(BYTE* dataCompressed, BYTE* dataUncompressed, W3GHead
 
     int EncStrLength = 0;
     BYTE* EncodedString = new BYTE[add_space];
-    getEncodedString(EncodedString, dataUncompressed, pos_u, EncStrLength); // DELETE ENCODED STRING?
+    getEncodedString(EncodedString, dataUncompressed, pos_u, EncStrLength);
     int length_before = EncStrLength;
     if (!modifyEncodedString(EncodedString, EncStrLength, maps_location))
     {
@@ -314,6 +314,10 @@ bool decompress_and_modify(BYTE* dataCompressed, BYTE* dataUncompressed, W3GHead
         pos_c += bhdr.c_size + sizeof(BlockHeader);
         pos_u += bhdr.u_size;
     }
+
+    // trunkating 0s to fit in the same amount of blocks
+
+    while (!dataUncompressed[pos_u - 1] && shift-- > 0) pos_u--; // it's important not to update it inside the while check
 
     // updating the padding with 0s, amount of blocks and the u_size
 
